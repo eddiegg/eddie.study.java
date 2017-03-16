@@ -5,7 +5,7 @@ package eddie.study.java.patterns.Iterator;
  */
 public class Main {
     public static void main(String[] args) {
-        BookShelf bookShelf = new BookShelf(10);
+        BookShelf bookShelf = new BookShelf(2);
         bookShelf.appendBook(new Book("设计模式"));
         bookShelf.appendBook(new Book("小王子"));
         bookShelf.appendBook(new Book("面向对象思想"));
