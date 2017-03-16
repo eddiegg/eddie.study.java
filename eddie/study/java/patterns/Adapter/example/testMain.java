@@ -1,8 +1,5 @@
 package eddie.study.java.patterns.Adapter.example;
 
-import eddie.study.java.patterns.Adapter.example.FileIO;
-import eddie.study.java.patterns.Adapter.example.FileProperties;
-
 import java.io.IOException;
 
 /**
