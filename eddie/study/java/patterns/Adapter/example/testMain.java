@@ -1,4 +1,7 @@
-package eddie.study.java.patterns.Adapter;
+package eddie.study.java.patterns.Adapter.example;
+
+import eddie.study.java.patterns.Adapter.example.FileIO;
+import eddie.study.java.patterns.Adapter.example.FileProperties;
 
 import java.io.IOException;
 
@@ -9,11 +12,11 @@ public class testMain {
     public static void main(String[] args) {
         FileIO f = new FileProperties();
         try {
-            f.readFromFile("file.txt");
+            f.readFromFile("./resources/file.txt");
 //            f.setValue("year","2017");
 //            f.setValue("month","3");
 //            f.setValue("day","16");
-            f.writeToFile("newfile.txt");
+            f.writeToFile("./resources/newfile.txt");
         } catch (IOException e) {
             e.printStackTrace();
         }
