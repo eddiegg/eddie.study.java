@@ -5,8 +5,8 @@ package eddie.study.java.patterns.TemplateMethod;
  */
 public class test {
     public static void main(String[] args) {
-        PlayGame father = new FatherGame("The Glory of King","Mobile");
-        PlayGame child = new ChildGame("Talking Tom","iPad");
+        PlayGame father = new FatherGame("The Glory of King", "Mobile");
+        PlayGame child = new ChildGame("Talking Tom", "iPad");
         father.letsHaveFun();
         child.letsHaveFun();
     }
