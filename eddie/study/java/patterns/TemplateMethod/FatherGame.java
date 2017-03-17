@@ -7,6 +7,7 @@ package eddie.study.java.patterns.TemplateMethod;
 public class FatherGame extends PlayGame {
     private String game;
     private String gameMachine;
+
     public FatherGame(String game, String gameMachine) {
         this.game = game;
         this.gameMachine = gameMachine;

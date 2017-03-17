@@ -7,12 +7,11 @@ public abstract class PlayGame {
     public abstract void openGameMachine();
     public abstract void startGame();
     public abstract void getGameScore();
-    public void letsHaveFun(){
+
+    public final void letsHaveFun(){
         openGameMachine();
         startGame();
         getGameScore();
         System.out.println("What a happy afternoon!");
     }
-
-
 }
