@@ -8,34 +8,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../javalib/gson-2.2.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/../javalib/gson-2.2.4-sources.jar!/" />
-        </SOURCES>
-        <excluded>
-          <root url="jar://$MODULE_DIR$/../javalib/gson-2.2.4-sources.jar!/" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../javalib/commons-io-2.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/../javalib/commons-io-2.5-src.zip!/commons-io-2.5-src/src/main/java" />
-          <root url="jar://$MODULE_DIR$/../javalib/commons-io-2.5-src.zip!/commons-io-2.5-src/src/test/java" />
-        </SOURCES>
-        <excluded>
-          <root url="jar://$MODULE_DIR$/../javalib/commons-io-2.5-src.zip!/" />
-        </excluded>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
