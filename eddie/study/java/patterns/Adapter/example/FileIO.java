@@ -1,4 +1,4 @@
-package eddie.study.java.patterns.Adapter;
+package eddie.study.java.patterns.Adapter.example;
 
 import java.io.IOException;
 
