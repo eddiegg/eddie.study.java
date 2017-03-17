@@ -3,7 +3,7 @@ package eddie.study.java.patterns.Adapter.example;
 import java.io.IOException;
 
 /**
- * Created by user on 2017/3/16.
+ * Created by eddie on 2017/3/16.
  */
 public interface FileIO {
     void readFromFile(String filename) throws IOException;

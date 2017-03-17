@@ -1,7 +1,7 @@
 package eddie.study.java.patterns.Adapter;
 
 /**
- * Created by user on 2017/3/16.
+ * Created by eddie on 2017/3/16.
  */
 public class Banner {
     private String string;

@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * Created by user on 2017/3/16.
+ * Created by eddie on 2017/3/16.
  */
 public class FileProperties extends Properties implements FileIO {
 
