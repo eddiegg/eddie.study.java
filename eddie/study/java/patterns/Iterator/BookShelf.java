@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by user on 2017/3/16.
+ * Created by eddie on 2017/3/16.
  */
 public class BookShelf implements Aggregate{
 //    private Book[] books;
@@ -12,7 +12,7 @@ public class BookShelf implements Aggregate{
     private int last = 0;
 
     public BookShelf(int maxsize) {
-        this.books = new ArrayList<Book>(maxsize);
+        this.books = new ArrayList<>(maxsize);
     }
 
     public Book getBookAt(int index) {
