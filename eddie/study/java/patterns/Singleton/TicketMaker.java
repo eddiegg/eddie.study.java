@@ -12,10 +12,10 @@ public class TicketMaker {
     public int getNextTicketNumber(){
         return ticket++;
     }
-
     /**
      * synchronized确保线程安全从而保证是真正的singleton类
      */
+
     public static synchronized TicketMaker getTicket(){
         return tickets;
     }
