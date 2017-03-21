@@ -14,5 +14,11 @@ public class Main {
 
         Product p = manager.create("Strong");
         p.use("Hi eddie");
+        msgbox.i = 99;
+        System.out.println(((MessageBox) p).i);  //100 基本数据类型会clone
+        System.out.println(msgbox.i);  //99
+        msgbox.st.add("eddie");
+        System.out.println(msgbox.st);  //abc,eddie
+        System.out.println(((MessageBox) p).st);  //abc,eddie 其他类型传递引用
     }
 }

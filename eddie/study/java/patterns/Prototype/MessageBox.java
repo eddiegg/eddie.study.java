@@ -2,11 +2,16 @@ package eddie.study.java.patterns.Prototype;
 
 import eddie.study.java.patterns.Prototype.framework.Product;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * Created by eddie on 2017/3/20.
  */
 public class MessageBox implements Product {
     private String decochar;
+    public int i = 100;
+    public ArrayList<String> st = new ArrayList<String>(Arrays.asList("abc"));
 
     public MessageBox(String decochar) {
         this.decochar = decochar;
