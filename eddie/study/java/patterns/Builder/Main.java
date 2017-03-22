@@ -9,5 +9,4 @@ public class Main {
         Director di = new Director(house);
         di.cons();
     }
-
 }
