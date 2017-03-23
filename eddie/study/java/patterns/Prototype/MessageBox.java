@@ -32,7 +32,7 @@ public class MessageBox implements Product {
     }
 
     @Override
-    public Product createClone() {
+    public Product createClone() {   //浅拷贝
         Product p = null;
         try {
             p = (Product) clone();

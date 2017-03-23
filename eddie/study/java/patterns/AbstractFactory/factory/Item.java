@@ -4,11 +4,11 @@ package eddie.study.java.patterns.AbstractFactory.factory;
  * Created by eddie on 2017/3/22.
  */
 public abstract class Item {
-    protected String caption;
+    protected String model;
 
-    public Item(String caption) {
-        this.caption = caption;
+    public Item(String model) {
+        this.model = model;
     }
 
-    public abstract String makeHTML();
+    public abstract String makeItem();
 }
