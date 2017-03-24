@@ -18,7 +18,6 @@ public abstract class Vehicle {
     }
 
     public void sell() {
-        build();
         System.out.println("All parts are built together, ready for sell");
 
     }

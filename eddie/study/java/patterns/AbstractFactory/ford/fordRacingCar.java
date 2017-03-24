@@ -18,7 +18,7 @@ public class fordRacingCar extends Vehicle {
         Iterator it = parts.iterator();
         while(it.hasNext()){
             Item item = (Item) it.next();
-            item.makeItem();
+            System.out.println(item.makeItem());
         }
         return brand+" Racing Car is ready!";
     }

@@ -1,4 +1,4 @@
-package eddie.study.java.patterns.AbstractFactory.ford;
+package eddie.study.java.patterns.AbstractFactory;
 
 import eddie.study.java.patterns.AbstractFactory.factory.Chassis;
 import eddie.study.java.patterns.AbstractFactory.factory.Engine;
@@ -12,16 +12,11 @@ import eddie.study.java.patterns.AbstractFactory.factory.Vehicle;
 public class Main {
     public static void main(String[] args) {
         Factory factory = Factory.getFactory("eddie.study.java.patterns.AbstractFactory.ford.fordFactory");
-
         Engine TC12 = factory.createEngine("Turbo Charger", "1200ml");
-
         Chassis racingCar = factory.createChassis("FordSpeed");
-
-        racingCar.add(TC12);
-
         Vehicle fct = factory.createVehicle("Focus ST");
+        fct.add(TC12);
         fct.add(racingCar);
-
         fct.build();
         fct.sell();
     }
