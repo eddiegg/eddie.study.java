@@ -19,6 +19,9 @@ class Child extends Father{
     public int getAge() {
         return age;
     }
+    public void childPrint(){
+        System.out.println("I am son");
+    }
 }
 public class FatherAndChild {
 
