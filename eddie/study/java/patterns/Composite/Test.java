@@ -3,7 +3,7 @@ package eddie.study.java.patterns.Composite;
 import eddie.study.java.patterns.Builder.Director;
 
 /**
- * Created by user on 2017/3/30.
+ * Created by eddie on 2017/3/30.
  */
 public class Test {
     public static void main(String[] args) {
