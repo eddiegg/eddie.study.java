@@ -1,7 +1,7 @@
 package eddie.study.java.patterns.Composite;
 
 /**
- * Created by user on 2017/3/30.
+ * Created by eddie on 2017/3/30.
  */
 public class File extends Entry {
     private String name;
