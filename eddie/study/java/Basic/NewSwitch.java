@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Created by user on 2017/3/30.
+ * Created by eddie on 2017/3/30.
  */
 public class NewSwitch {
     public static void main(String[] args) {
