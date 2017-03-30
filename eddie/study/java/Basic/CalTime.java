@@ -16,7 +16,5 @@ public class CalTime {
         long estTime2 = System.currentTimeMillis() - startTime2;
         System.out.println(estTime);
         System.out.println(estTime2);
-
-
     }
 }
