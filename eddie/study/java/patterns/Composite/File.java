@@ -1,0 +1,28 @@
+package eddie.study.java.patterns.Composite;
+
+/**
+ * Created by user on 2017/3/30.
+ */
+public class File extends Entry {
+    private String name;
+    private int size;
+
+    public File(String name, int size) {
+        this.name = name;
+        this.size = size;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public int getSize() {
+        return size;
+    }
+
+    protected void printList(String prefix){
+        System.out.println(prefix + "/" + this);
+    }
+}
